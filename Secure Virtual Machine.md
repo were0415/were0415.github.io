@@ -81,9 +81,9 @@ CPU软件不知道这些密钥的值，但是VMM应该通过AMD-SP驱动程序�
 
 ![]()
 
-![image-20230727055113274](D:\UserData\c00010472\AMD\image-20230727055113274.png)
+![image-20230727055113274](https://github.com/were0415/were0415.github.io/blob/main/image-20230727055113274.png)
 
-![image-20230727055447698](D:\UserData\c00010472\AMD\image-20230727055447698.png)
+![image-20230727055447698](https://github.com/were0415/were0415.github.io/blob/main/image-20230727055447698.png)
 
 如果VMM在VMCB的offset 090h设置了SEV使能(Bit 1)，那么在VMRUN指令期间可以在特定的虚拟机上启用SEV。
 
